@@ -1,0 +1,16 @@
+{
+  "ai": {
+    "provider": "openai",
+    "model": "gpt-4",
+    "prompt_template": "Analyze the following Salesforce {component_type}:\n\n{code}"
+  },
+  "salesforce": {
+    "auth_method": "username_password",
+    "credentials": {
+      "username": "",
+      "password": "",
+      "security_token": "",
+      "domain": "login"
+    }
+  }
+}

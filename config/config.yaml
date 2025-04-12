@@ -1,0 +1,14 @@
+# Salesforce Documentation Generator Configuration
+
+# Repository Settings
+repository:
+  type: git  # or bitbucket
+  url: ""
+  branch: "main"
+  auth:
+    method: ssh  # or https
+    credentials_file: "config/credentials.json"
+
+# Base Directory Settings
+salesforce:
+  base_path: "force-app/main/default"
